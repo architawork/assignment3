@@ -1,10 +1,3 @@
-# Async Data Pipeline & Report Generation
-
-This repository demonstrates:
-1. An asynchronous producer–consumer data pipeline
-2. A report generation workflow using files stored in Amazon S3
-
----
 
 ## 1. Asynchronous Producer–Consumer Pipeline
 
