@@ -12,15 +12,16 @@ session = boto3.Session(
 s3 = session.client(
     "s3",
     config=Config(signature_version="s3v4"),
-    verify=False #bypasses SSL certificate verification
+    verify=False 
 )
 
 
 #basically to download the files
-# for i in range(1, 13):
-#     key = f"file{i}.json"
-#     s3.download_file("amzn-12-file", key, key)
+for i in range(1, 13):
+    key = f"file{i}.json"
+    s3.download_file("amzn-12-file", key, key)
 
+#uploading the reports back to s3
 for file in os.listdir("reports"):
     local_path = f"reports/{file}"
     s3_key = f"reports/{file}"
