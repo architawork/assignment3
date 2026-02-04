@@ -15,7 +15,7 @@ How would you avoid file conflicts? How would you handle files of different size
 ## 2. Report Generation from S3 Files
 
 ### Problem Statement
-You have **12 data files stored in Amazon S3**.  
+You have 12 data files stored in Amazon S3.  
 The goal is to:
 - Download each file
 - Calculate statistics (row count, missing values)
