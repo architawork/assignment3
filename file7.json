@@ -1,0 +1,10 @@
+{
+  "file_name": "input-files/payments_01.csv",
+  "file_id": "f1a7",
+  "rows": 302110,
+  "missing_values": {
+    "payment_method": 18,
+    "status": 9
+  },
+  "processed_at": "2026-02-04T10:07:00Z"
+}

@@ -1,0 +1,11 @@
+{
+  "file_name": "file9.json",
+  "row_count": 2,
+  "missing_values_per_column": {
+    "file_name": 0,
+    "file_id": 0,
+    "rows": 0,
+    "missing_values": 0,
+    "processed_at": 0
+  }
+}

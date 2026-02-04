@@ -1,0 +1,11 @@
+{
+  "file_name": "input-files/customers_01.csv",
+  "file_id": "f1a1",
+  "rows": 120034,
+  "missing_values": {
+    "age": 230,
+    "salary": 1045,
+    "email": 12
+  },
+  "processed_at": "2026-02-04T10:01:00Z"
+}

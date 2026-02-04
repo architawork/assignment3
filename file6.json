@@ -1,0 +1,10 @@
+{
+  "file_name": "input-files/products_02.csv",
+  "file_id": "f1a6",
+  "rows": 16200,
+  "missing_values": {
+    "price": 7,
+    "category": 1
+  },
+  "processed_at": "2026-02-04T10:06:00Z"
+}

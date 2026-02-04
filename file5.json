@@ -1,0 +1,10 @@
+{
+  "file_name": "input-files/orders_02.csv",
+  "file_id": "f1a4",
+  "rows": 430210,
+  "missing_values": {
+    "order_amount": 44,
+    "discount": 98
+  },
+  "processed_at": "2026-02-04T10:04:00Z"
+}

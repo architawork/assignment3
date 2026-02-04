@@ -1,0 +1,10 @@
+{
+  "file_name": "input-files/employees_02.csv",
+  "file_id": "f1b2",
+  "rows": 5600,
+  "missing_values": {
+    "manager_id": 9,
+    "joining_date": 1
+  },
+  "processed_at": "2026-02-04T10:12:00Z"
+}

@@ -1,0 +1,10 @@
+{
+  "file_name": "input-files/logs_02.csv",
+  "file_id": "f1b0",
+  "rows": 1023344,
+  "missing_values": {
+    "event_type": 0,
+    "user_id": 410
+  },
+  "processed_at": "2026-02-04T10:10:00Z"
+}
