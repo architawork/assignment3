@@ -8,7 +8,7 @@ How would you use:
 - Multiple producers and consumers
 
 ## Answer
-Backpressure is handled by setting a maximum size on the queue, so producers automatically wait when the queue is full. Multiple producers and consumers can run at the same time, allowing data to be fetched and processed in parallel in a safe and efficient way.
+Backpressure is handled by setting a maximum size on the queue, so producers automatically wait when the queue is full and consumers wait when the queue is empty. Multiple producers and consumers can run at the same time, allowing data to be fetched and processed in parallel.
 
 
 ## 2. Report Generation from S3 Files
