@@ -22,3 +22,7 @@ The goal is to:
 - Create a master summary
 - Upload all reports back to S3
 
+## Answer
+File conflicts are avoided by processing each file separately and using unique file names or folders. Files of different sizes are handled by processing them in parallel and streaming or chunking large files instead of loading them fully into memory.
+
+
