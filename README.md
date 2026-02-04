@@ -1,16 +1,13 @@
 
 ## 1. Asynchronous Producer–Consumer Pipeline
+## Question
+Producers fetch data asynchronously and consumers transform and save it.
 
-### Overview
-- **Producers** fetch data asynchronously from external sources (e.g., APIs, S3, message queues).
-- **Consumers** process, transform, and persist the data (e.g., save to disk, database, or S3).
-
----
-
-### Architecture
+How would you use:
+- Backpressure  
+- Multiple producers and consumers
 
 
-How would you avoid file conflicts? How would you handle files of different sizes?
 
 ## 2. Report Generation from S3 Files
 
