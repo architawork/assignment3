@@ -1,14 +1,20 @@
-7. Producers fetching data asynchronously
-Consumers transforming and saving it
- How would you use:
-  -Backpressure
-  -Multiple producers and consumers
+# Async Data Pipeline & Report Generation
 
-##Question 8: Report Generation
-You have 12 data files in S3. You need to:
--Download each file
--Calculate statistics (row count, missing values)
--Generate individual reports
--Create master summary
--Upload all reports to S3
+This repository demonstrates:
+1. An asynchronous producer–consumer data pipeline
+2. A report generation workflow using files stored in Amazon S3
+
+---
+
+## 1. Asynchronous Producer–Consumer Pipeline
+
+### Overview
+- **Producers** fetch data asynchronously from external sources (e.g., APIs, S3, message queues).
+- **Consumers** process, transform, and persist the data (e.g., save to disk, database, or S3).
+
+---
+
+### Architecture
+
+
 How would you avoid file conflicts? How would you handle files of different sizes?
